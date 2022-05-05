@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <title>Rechner</title>
+  </head>
+  <body>
+    <div class="main">
+      <div id="streak" class="mb"></div>
+      <div id="task" class="mb"></div>
+      <form onsubmit="event.preventDefault();submitAnwser()">
+        <input id="anwserInput" type="number" class="mb"></input>
+        <button type="submit">submit</button>
+      </form>
+      <div id="anwser" style="margin-bottom:10px"></div>
+      <button id="next" class="mb" onclick="createTask()">next task</button>
+    </div>
+    <script type="text/javascript">
+      createTask();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.mb {
+  margin-bottom: 10px;
+}
+#anwser {
+  height: 20px;
+}
+.correct {
+  color: rgb(0, 153, 0);
+}
+.incorrect {
+  color: red;
+}
